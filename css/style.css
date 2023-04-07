@@ -71,7 +71,9 @@ a {
 }
 .card-body ul {
    list-style-type: none;
+   
 }
+
 .icons-modal {
    padding: 10px;
 }
@@ -101,9 +103,11 @@ a {
 }
 .basics-food {
    background-color: #1A1A1A;
+   
 }
 .basics-content {
    position: relative;
+   bottom: 45px;
   
  
    background-color: #252525;
@@ -414,10 +418,23 @@ h3, h4 {
 .contacts-social {
    display: flex;
    flex-direction: column;
-   
 }
 
-
+.chefs-img {
+   height: 15rem;
+   width: 18rem;
+   padding: auto;
+}
+.tab-list {
+   width: auto;
+}
+.tab-img {
+   width: 10rem;
+}
+.card .card-text img p {
+   display: flex;
+   justify-content: space-between;
+}
 /*---------------------- Day-end-------------------------*/
 @media screen and (max-width:900px) {
    .basics-food {
@@ -433,6 +450,7 @@ h3, h4 {
       top: -40px;
       font-size: 20px;
    }
+   
 }
 
 @media screen and (max-width:375px) {
