@@ -231,6 +231,10 @@ color: #ffffff;
    letter-spacing: 0.2em;
    text-transform: uppercase;
 }
+.ind-img {
+   height: 170px;
+   border-radius: 5px;
+}
 
 
 /* Day*/
